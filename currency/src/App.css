@@ -1,0 +1,52 @@
+#root {
+  text-align: center;
+}
+
+table, th, tr, td{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+th{
+  background-color:black;
+  color: white;
+}
+
+body div div table tr a{
+  text-decoration: none;
+  color: black;
+}
+
+table{
+  margin: auto;
+}
+
+a{
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+a:hover{
+  color: red;
+}
+
+button{
+  margin: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+button:hover{
+  color: red;
+  border: 1px solid red;
+}
+
+button:active{
+  transform: scale(.95);
+  color: red;
+  border: 1px solid red;
+}
